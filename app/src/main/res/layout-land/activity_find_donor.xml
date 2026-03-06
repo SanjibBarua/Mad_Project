@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Blood Group Spinner -->
+    <Spinner
+        android:id="@+id/spinnerBloodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/blood_groups" />
+
+    <!-- Division / Location Filter -->
+    <EditText
+        android:id="@+id/etDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Division (e.g. Dhaka)" />
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Donors" />
+
+    <!-- No result message -->
+    <TextView
+        android:id="@+id/tvNoResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No donors found"
+        android:visibility="gone" />
+
+    <!-- Donors RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDonors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "983994551124",
+    "project_id": "bloodbankapp-632c3",
+    "storage_bucket": "bloodbankapp-632c3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983994551124:android:813d69a52f033107e616c1",
+        "android_client_info": {
+          "package_name": "com.kaboom.bloodbank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEhYGoCBgwh3JIxgJTZ-NdiKcMKcKRbLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
